@@ -24,9 +24,11 @@ body {
   margin-top: auto;
   margin-bottom: 10px;
   font-size: 100%;
-  color: black;
-  font-weight: 900;
-  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
+  color: white;
+  font-weight: 500;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  background-color: rgba(0, 0, 0, 0.544);
+  padding: 5px;
 }
 
 a {
@@ -131,4 +133,14 @@ form {
   font-size: 25px;
   font-weight: 900;
   color: red;
+}
+
+.img-logo {
+  width: 10%;
+  height: fit-content;
+  margin-left: 28%;
+  background-color: rgba(0, 0, 0, 0.178;
+}
+.odin-img{
+    width: 100%;
 }
