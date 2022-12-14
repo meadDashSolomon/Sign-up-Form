@@ -19,7 +19,7 @@ inputs.forEach((item) => {
 
 const submit = (e) => {
   e.preventDefault();
-  if (password !== confirmPassword) {
+  if (password.value !== confirmPassword.value) {
     password.classList.add("error");
     confirmPassword.classList.add("error");
     errorMessage.textContent = "Passwords don't match";
